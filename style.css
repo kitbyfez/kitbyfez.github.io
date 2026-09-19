@@ -222,6 +222,24 @@ h1 {
 }
 .work .card a:hover { text-decoration: underline; }
 
+/* ---------- content showcase ---------- */
+.showcase { margin-top: 30px; max-width: 560px; }
+.showcase video {
+  width: 100%;
+  aspect-ratio: 1 / 1;
+  border-radius: var(--radius);
+  border: 1px solid var(--border);
+  background: #000;
+  display: block;
+  box-shadow: 0 12px 48px rgba(0, 0, 0, 0.45);
+}
+.showcase figcaption {
+  margin-top: 14px;
+  color: var(--faint);
+  font-size: 14.5px;
+}
+.showcase figcaption em { color: var(--muted); font-style: italic; }
+
 /* ---------- footer ---------- */
 footer {
   max-width: var(--max);
