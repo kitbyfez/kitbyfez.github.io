@@ -2,6 +2,10 @@
 (function () {
   "use strict";
 
+  // Progressive enhancement: only hide-then-reveal cards when JS runs.
+  document.documentElement.classList.remove("no-js");
+  document.documentElement.classList.add("js");
+
   // Footer year
   var yearEl = document.getElementById("year");
   if (yearEl) yearEl.textContent = new Date().getFullYear();
