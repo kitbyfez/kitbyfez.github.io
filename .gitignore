@@ -1,0 +1,7 @@
+node_modules/
+judge-shots/
+JUDGE_RUBRIC.md
+shoot.js
+package.json
+package-lock.json
+diag-*.png
